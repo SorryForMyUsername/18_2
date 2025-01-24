@@ -10,16 +10,16 @@ namespace _18_2
     {
         static void Main(string[] args)
         {
-            Address ttiipAddress = new Address();
+            Address address = new Address();
 
-            ttiipAddress.index = 3300;
-            ttiipAddress.country = "Приднестровье";
-            ttiipAddress.city = "Тирасполь";
-            ttiipAddress.street = "Карла Либкнехта";
-            ttiipAddress.house = 244;
-            ttiipAddress.apartment = 4;
+            address.index = 3300;
+            address.country = "Приднестровье";
+            address.city = "Тирасполь";
+            address.street = "Карла Либкнехта";
+            address.house = 244;
+            address.apartment = 4;
 
-            ttiipAddress.Output();
+            address.Output();
 
             Console.ReadKey();
         }
